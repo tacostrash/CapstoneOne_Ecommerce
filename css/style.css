@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica;
 }
 
 .list {
@@ -14,6 +14,59 @@
   margin: 0px auto;
 }
 
+.sign-up-form
+{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0.3);
+  background: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color:white;
+  background-size: cover;
+  background-position: center;
+}
+
+.sign-up-form h1
+{
+  color: black;
+  margin-bottom: 30px;
+}
+
+.input-box
+
+{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.login-in-form
+{
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba (0, 0, 0, 0.3);
+  background: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 8% auto 0;
+  text-align: center;
+}
+.login-in-form h1
+{
+  color: black;
+  margin-bottom: 30px;
+}
+
 
 /*.type2{
   width: 75%;
@@ -23,3 +76,47 @@
   transform: translate(-50%,-50%);
 */
 
+body{
+  background:#fff;
+}
+.details {
+          border: 1.5px solid grey;
+          color: #212121;
+          width: 100%;
+          height: auto;
+          box-shadow: 0px 0px 10px #212121;
+      }
+
+      .cart {
+          background-color: #212121;
+          color: white;
+          margin-top: 10px;
+          font-size: 12px;
+          font-weight: 900;
+          width: 100%;
+          height: 39px;
+          padding-top: 9px;
+          box-shadow: 0px 5px 10px  #212121;
+      }
+
+      .card {
+          width: fit-content;
+      }
+
+      .card-body {
+          width: fit-content;
+      }
+
+      .btn {
+          border-radius: 0;
+      }
+
+      .img-thumbnail {
+          border: none;
+      }
+
+      .card {
+          box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+          border-radius: 5px;
+          padding-bottom: 10px;
+      }
